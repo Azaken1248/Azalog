@@ -1,0 +1,66 @@
+.terminal {
+    background-color: #2C2F33;
+    color: #F8F8F2;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 80%;
+    min-height: 70%;
+    min-width: 80%;
+    max-height: 80%;
+    overflow-y: scroll;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .terminal-header {
+    background-color: #23272A;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+    color: #F47FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .terminal-content {
+    background-color: #1E2124;
+    padding: 15px;
+    border-radius: 0 0 6px 6px;
+    min-height: 100%; 
+    max-height: 100%;
+    overflow-y: scroll; 
+    
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    overflow-x: hidden; 
+    
+    word-break: break-word; 
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .download-btn {
+    background-color: #F47FFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .download-btn:hover {
+    background-color: #c536db;
+  }
+  
+  .toggle-btn{
+    background-color: #F47FFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .toggle-btn:hover {
+    background-color: #c536db;
+  }
